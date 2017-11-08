@@ -1,0 +1,8 @@
+public static void main [String args] {
+	Sting result = printWorkTime(8);
+	System.out.println("工作时间："+result")；
+	}
+	public static String printWorkTime(int workTime){
+	 return workTime >8 ?"overtime" :" normal shift";
+	}
+	
